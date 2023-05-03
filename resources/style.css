@@ -1,0 +1,443 @@
+@font-face {
+  font-family: 'Brandon Light';
+  src: url('font-webfont.woff2') format('woff2'),
+    url('font-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media (max-width: 400px) {
+  .flex-grid {
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+}
+
+a {
+  text-decoration: none;
+  /* no underline */
+}
+
+img {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -2;
+  filter: blur(5px) brightness(30%);
+  pointer-events: none;
+}
+
+body {
+  text-align: center;
+  font-size: 20px;
+  -webkit-user-select: none;
+  -moz-user-select: -moz-none;
+  -ms-user-select: none;
+  user-select: none
+}
+
+
+.ascii {
+  font-family: monospace;
+  white-space: pre;
+  font-size: 15px;
+  padding-bottom: 10px;
+}
+
+/* BUTTONS */
+.btn {
+  color: white;
+  font-family: 'Brandon Light'
+}
+
+.btn:hover {
+  color: grey !important;
+}
+
+.btn-soloto {
+  color: rgb(191, 41, 255);
+  font-family: 'Brandon Light';
+  transition: 0.3s;
+}
+
+.btn-soloto:hover {
+  color: #000000 !important;
+}
+
+.btn-github {
+  color: rgb(107, 235, 255);
+  font-family: 'Brandon Light';
+  transition: 0.3s;
+}
+
+.btn-github:hover {
+  color: rgb(255, 189, 22) !important;
+}
+
+.btn-lfm {
+  color: white;
+  font-family: 'Brandon Light';
+  transition: 0.3s;
+}
+
+.btn-lfm:hover {
+  color: red !important;
+}
+
+.btn-spotify {
+  color: rgb(96, 255, 93);
+  font-family: 'Brandon Light';
+  transition: 0.3s;
+}
+
+.btn-spotify:hover {
+  color: rgb(9, 9, 9) !important;
+}
+
+.btn-ios {
+  color: rgb(255, 255, 255);
+  font-family: 'Brandon Light';
+  transition: 0.3s;
+}
+
+.btn-ios:hover {
+  color: rgb(254, 187, 255) !important;
+}
+
+.btn-discord {
+  color: rgb(67, 180, 255);
+  font-family: 'Brandon Light';
+  transition: 0.3s;
+}
+
+.btn-discord:hover {
+  color: rgb(255, 255, 255) !important;
+}
+
+:root {
+  --gray: #a7a6a673;
+  --green: #3fd50f;
+  --yellow: #ecc900;
+  --discord: #5865f2;
+  --instagram1: #cf0057;
+  --instagram2: #8a2bc9;
+  --instagram3: #f2ae4a;
+  --tiktok: #e71c4f;
+  --youtube: #f70f17;
+  --facebook: #4064ac;
+  --twitch: #9046ff;
+  --pink: #f3b8ff76;
+}
+
+button {
+  cursor: pointer;
+  border-radius: 0.9rem;
+  font-family: "Brandon Light";
+  color: #fff;
+  margin: 1.5rem 1rem;
+  background-color: white;
+  border-style: none;
+  font-size: 1.5rem;
+  padding: 0.5rem 1rem;
+  -webkit-filter: drop-shadow(5px 5px 1px #e4e4e4);
+  filter: drop-shadow(5px 5px 1px #e4e4e4);
+}
+
+button:hover {
+  border-radius: 0.4rem;
+  -webkit-filter: drop-shadow(1px 1px 1px #e4e4e4);
+  filter: drop-shadow(1px 1px 1px #e4e4e4);
+}
+
+.btn1 {
+  background-color: var(--discord);
+  -webkit-filter: drop-shadow(5px 5px 1px #2b3492);
+  filter: drop-shadow(5px 5px 1px #2b3492);
+}
+
+.btn1:hover {
+  -webkit-filter: drop-shadow(0 0 0 #2b3492);
+  filter: drop-shadow(0 0 0 #2b3492);
+}
+
+.btn2 {
+  background-color: var(--gray);
+  -webkit-filter: drop-shadow(5px 5px 1px #000000);
+  filter: drop-shadow(5px 5px 1px #000000);
+  border-radius: 4px;
+  margin-left: 1px;
+  margin-right: 1px;
+  padding: 3px 5px;
+  color: inherit;
+  text-shadow: 3px 2px 2px #000000;
+}
+
+.btn2:hover {
+  -webkit-filter: drop-shadow(0 0 0 #000000);
+  filter: drop-shadow(0 0 0 #000000);
+}
+
+.btn3 {
+  background-color: var(--pink);
+  -webkit-filter: drop-shadow(5px 5px 1px #f93dff43);
+  filter: drop-shadow(5px 5px 1px #3df2ff4f);
+  border-radius: 5px;
+  padding: 2px 2px;
+  color: inherit;
+  text-shadow: 3px 2px 2px #000000;
+}
+
+.btn3:hover {
+  -webkit-filter: drop-shadow(0 0 0 #000000);
+  filter: drop-shadow(0 0 0 #000000);
+}
+
+@media screen and (max-width: 800px) {
+  .buttons {
+    width: 80px;
+  }
+}
+
+/**/
+
+/* DEFAULT TEXT */
+.clean {
+  color: white;
+  font-family: 'Brandon Light'
+}
+
+/**/
+
+.gap {
+  margin-top: 70px;
+  margin-bottom: 5px;
+}
+
+.gap-discord {
+  margin-top: 10px;
+}
+
+.gap-theme-guide {
+  margin-top: 10px;
+}
+/* credit to kota for this bit gfys */
+.rainbow {
+  background-size: 800% 800%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  animation: rainbow 8s ease infinite;
+  overflow: hidden;
+  text-shadow: 0px 2px 3px #FFF;
+  padding: 2px;
+}
+
+
+@keyframes rainbow {
+  0% {
+    color: #e87d7d;
+  }
+
+  2% {
+    color: #e88a7d;
+  }
+
+  4% {
+    color: #e8977d;
+  }
+
+  6% {
+    color: #e8a47d;
+  }
+
+  8% {
+    color: #e8b07d;
+  }
+
+  10% {
+    color: #e8bd7d;
+  }
+
+  12% {
+    color: #e8ca7d;
+  }
+
+  14% {
+    color: #e8d77d;
+  }
+
+  16% {
+    color: #e8e47d;
+  }
+
+  18% {
+    color: #dfe87d;
+  }
+
+  20% {
+    color: #d3e87d;
+  }
+
+  22% {
+    color: #c6e87d;
+  }
+
+  24% {
+    color: #b9e87d;
+  }
+
+  26% {
+    color: #ace87d;
+  }
+
+  28% {
+    color: #9fe87d;
+  }
+
+  30% {
+    color: #92e87d;
+  }
+
+  32% {
+    color: #86e87d;
+  }
+
+  34% {
+    color: #7de881;
+  }
+
+  36% {
+    color: #7de88e;
+  }
+
+  38% {
+    color: #7de89b;
+  }
+
+  40% {
+    color: #7de8a8;
+  }
+
+  42% {
+    color: #7de8b5;
+  }
+
+  44% {
+    color: #7de8c1;
+  }
+
+  46% {
+    color: #7de8ce;
+  }
+
+  48% {
+    color: #7de8db;
+  }
+
+  50% {
+    color: #7de8e8;
+  }
+
+  52% {
+    color: #7ddbe8;
+  }
+
+  54% {
+    color: #7dcee8;
+  }
+
+  56% {
+    color: #7dc1e8;
+  }
+
+  58% {
+    color: #7db5e8;
+  }
+
+  60% {
+    color: #7da8e8;
+  }
+
+  62% {
+    color: #7d9be8;
+  }
+
+  64% {
+    color: #7d8ee8;
+  }
+
+  66% {
+    color: #7d81e8;
+  }
+
+  68% {
+    color: #867de8;
+  }
+
+  70% {
+    color: #927de8;
+  }
+
+  72% {
+    color: #9f7de8;
+  }
+
+  74% {
+    color: #ac7de8;
+  }
+
+  76% {
+    color: #b97de8;
+  }
+
+  78% {
+    color: #c67de8;
+  }
+
+  80% {
+    color: #d37de8;
+  }
+
+  82% {
+    color: #df7de8;
+  }
+
+  84% {
+    color: #e87de4;
+  }
+
+  86% {
+    color: #e87dd7;
+  }
+
+  88% {
+    color: #e87dca;
+  }
+
+  90% {
+    color: #e87dbd;
+  }
+
+  92% {
+    color: #e87db0;
+  }
+
+  94% {
+    color: #e87da4;
+  }
+
+  96% {
+    color: #e87d97;
+  }
+
+  98% {
+    color: #e87d8a;
+  }
+
+  100% {
+    color: #e87d7d;
+  }
+}

