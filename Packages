@@ -1,14 +1,29 @@
-Package: gay.kota.koatzy
-Version: 1.0
+Package: gay.kota.basiccarrier
+Version: 1.0.0nya~
+Architecture: iphoneos-arm
+Maintainer: Kota
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: Files/basiccarrierrootful/gay.kota.basiccarrier_1.0.0nya~_iphoneos-arm.deb
+Size: 14018
+MD5sum: dd883d1fb47387a2f6b01e45fa7a94d2
+SHA1: 07d1132538452c5ca73acfe31b4771bb0fc9af7b
+SHA256: 6964609552e608c463458629e9ee69b49023a8aae3874c8de71a906f6b94c0bf
+Section: Tweaks
+Description: Basic tweak to change carrier text. iOS 13+
+Author: Kota
+Name: Basic Carrier (Rootful)
+
+Package: gay.kota.basiccarrier
+Version: 1.0.0nya~
 Architecture: iphoneos-arm64
 Maintainer: Kota
-Depends: com.anemonetheming.anemone | com.spark.snowboard
-Filename: Files/koatzy/Koatzy.deb
-Size: 78628100
-MD5sum: e1c573f0f7e626e93114a2ed20ccdcfc
-SHA1: 88052a2a419e477163fc9b44256c5044c838c8dd
-SHA256: 6c30f4c0564cf7193551a0a2c64c5901daabbe78681a4d9d99b35438207bfc72
-Section: Themes
-Description: A theme with beautiful glass icons! Still being fixed for Rootless.
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: Files/basiccarrier/gay.kota.basiccarrier_1.0.0nya~_iphoneos-arm64.deb
+Size: 13988
+MD5sum: 09f8a2975ac73461c16a7b6499568d9b
+SHA1: 843764cf0924b9f3abab03f50f9acc380528480b
+SHA256: 34fbbf178fdf5c07b758b97292ac27ea25cfc67b5dcc5067cb2f1f13fcac2978
+Section: Tweaks
+Description: Basic tweak to change carrier text. iOS 13+
 Author: Kota
-Name: Koatzy
+Name: Basic Carrier (Rootless)
