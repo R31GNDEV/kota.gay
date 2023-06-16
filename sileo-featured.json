@@ -4,21 +4,9 @@
     "itemCornerRadius": 12,
     "banners": [
       {
-        "url": "https://cdn.discordapp.com/attachments/366628660939194378/596010124112560129/SileoBanner.png",
-        "title": "Koatzy",
-        "package": "gay.kota.koatzy",
-        "hideShadow": false
-      },
-      {
-        "url": "https://cdn.discordapp.com/attachments/366628660939194378/596010124112560129/SileoBanner.png",
-        "title": "NoLabels13",
-        "package": "gay.kota.nolabels13",
-        "hideShadow": false
-      },
-      {
-        "url": "https://cdn.discordapp.com/attachments/366628660939194378/596010124112560129/SileoBanner.png",
-        "title": "ColorDock13",
-        "package": "gay.kota.colordock13",
+        "url": "https://cdn.discordapp.com/attachments/1083531040397721711/1119076439539597434/minimalizm-gradient-background.png",
+        "title": "Basic-Carrier",
+        "package": "gay.kota.basiccarrier",
         "hideShadow": false
       }
     ]
